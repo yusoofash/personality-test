@@ -1,0 +1,15 @@
+.heading {
+    font-family: 'DynaPuff', cursive;
+}
+
+.types-img {
+    height: 280px;
+    width: 100%;
+    object-fit: cover;
+}
+
+@media only screen and (min-width: 600px) {
+    .heading, .description {
+        max-width: 400px;
+    }
+}
